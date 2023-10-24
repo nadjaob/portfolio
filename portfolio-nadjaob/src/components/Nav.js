@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 // BOOTSTRAP
 import Container from 'react-bootstrap/Container'
@@ -12,13 +12,13 @@ export default function Nav() {
       <Container>
         <Row className='navigation'>
           <Col>
-            <p>NADJA</p>
+            <p className='mb-0'>NADJA</p>
           </Col>
           <Col className='nav-links'>
-            <NavLink to='#about'>About me</NavLink>
-            <NavLink to='#projects'>Projects</NavLink>
-            <NavLink to='#skills'>Skills</NavLink>
-            <NavLink to='#contact'>Contact</NavLink>
+            <Link href='#about'>About me</Link>
+            <Link to='#projects'>Projects</Link>
+            <Link to='#skills'>Skills</Link>
+            <Link to='#contact'>Contact</Link>
           </Col>
         </Row>
       </Container>

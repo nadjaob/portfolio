@@ -1,5 +1,6 @@
 $dark-grey: #2B2B2F;
 $middle-grey: #38383B;
+$pink: #FF1C54;
 $white: #fff;
 
 %flex-between {
@@ -7,3 +8,38 @@ $white: #fff;
   align-items: center;
   justify-content: space-between;
 }
+
+%flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+
+// BUTTONS
+
+.two-buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+
+  .button-transparent {
+    background: none;
+    border: 2px solid $white;
+    padding: 9px 47px;
+    color: $white;
+    font-weight: 700;
+  }
+  
+  .button-color {
+    background: $pink;
+    border: 2px solid $pink;
+    padding: 9px 47px;
+    color: $white;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    font-weight: 700;
+  }
+  
+}
+

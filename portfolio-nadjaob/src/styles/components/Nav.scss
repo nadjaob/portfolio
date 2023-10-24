@@ -1,4 +1,14 @@
-.navigation, .nav-links {
-  @extend %flex-between;
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: $dark-grey;
 }
 
+.navigation {
+  @extend %flex-between;
+  padding: 24px 0;
+}
+
+.nav-links {
+  @extend %flex-end;
+}

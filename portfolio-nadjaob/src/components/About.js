@@ -6,9 +6,9 @@ import Col from 'react-bootstrap/Col'
 
 export default function About() {
   return (
-    <Container>
+    <Container className='container-about'>
       <Row>
-        <Col>
+        <Col md={{ span: 8, offset: 2 }}>
           <h3 id='#about'>About me</h3>
           <p>My passion for web development was sparked when I was working for a digital agency as a designer, which taught me the importance of delivering an exceptional <strong>user experience</strong>.</p>
           <p>I transitioned to a career in software engineering due to my growing passion for technology and all the challenges that programming brings. It allows me to constantly <strong>learn new skills</strong>, combine my <strong>creativity with analytical problem-solving</strong> and to bring a <strong>broad perspective</strong> to every project.</p>
