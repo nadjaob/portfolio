@@ -34,9 +34,10 @@ strong {
     border: 2px solid $white;
     padding: 9px;
     color: $white;
-    font-weight: 700;
+    font-weight: 600;
     width: 160px;
     text-align: center;
+    text-transform: uppercase;
   }
   
   .button-color {
@@ -45,9 +46,10 @@ strong {
     padding: 9px;
     color: $white;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-    font-weight: 700;
+    font-weight: 600;
     width: 160px;
     text-align: center;
+    text-transform: uppercase;
   }
 
 }

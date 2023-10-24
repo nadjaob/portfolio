@@ -36,6 +36,7 @@
   justify-content: center;
   border: none;
   background: none;
+  font-weight: 500;
 
   button {
     padding: 10px 20px;
@@ -57,7 +58,7 @@
   .nav-link.active, .nav-link:hover, .nav-link:focus {
     border-color: $middle-grey;
     background: none;
-    color: $white;
+    color: $pink;
   }
 
   .nav-item:focus-visible {

@@ -31,7 +31,7 @@ export default function Projects() {
                       <div className='project-image-border'></div>
                     </div>
                   </Col>
-                  <Col>
+                  <Col className='mt-3'>
                     <p>A social media platform where users can add travel destinations to their personal bucket lists, view profile pages and invite friends to add destinations to their list.</p>
                     <p>The <strong>full stack application</strong> is based on a React front-end and Django backend. The data is served from a Postgres database containing multiple relationships and CRUD functionality.</p>
                     <p className='project-skills'>React - JavaScript - Bootstrap - Sass - Django - Python - PostgreSQL - Git - Github - Figma - Trello</p>
