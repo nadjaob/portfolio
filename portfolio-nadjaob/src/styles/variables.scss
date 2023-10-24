@@ -1,0 +1,9 @@
+$dark-grey: #2B2B2F;
+$middle-grey: #38383B;
+$white: #fff;
+
+%flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
