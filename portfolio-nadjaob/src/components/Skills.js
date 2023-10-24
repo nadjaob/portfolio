@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 
 export default function Skills() {
   return (
-    <Container>
+    <Container className='container-skills'>
       <Row>
         <Col>
           <h3>Skills</h3>

@@ -22,7 +22,7 @@ export default function Header() {
         <Row>
           <Col>
             <h1>Hi I'm Nadja!</h1>
-            <h2>A Full Stack Developer from Germany</h2>
+            <h2>A Full Stack Developer with a background in Design</h2>
             <div className='two-buttons'>
               <Link className='button-transparent' to='https://github.com/nadjaob' target='_blank'>GitHub</Link>
               <Link className='button-color' to='https://www.linkedin.com/in/nadja-oblaender/' target='_blank'>LinkedIn</Link>

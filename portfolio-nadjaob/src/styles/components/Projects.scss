@@ -1,0 +1,66 @@
+.container-projects {
+  @extend %flex-between;
+
+  .project-image {
+    width: 100%;
+    height: 330px;
+  }
+
+  .container-image {
+    margin-right: 40px;
+  }
+
+  .container-project-image {
+    position: relative;
+  }
+
+  .project-image-border {
+    height: 100%;
+    width: 100%;
+    border: 7px solid $pink;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    z-index: -1;
+  }
+
+  .project-skills {
+    color: $light-grey;
+  }
+
+}
+
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background: none;
+
+  button {
+    padding: 10px 20px;
+  }
+
+  li:first-child button {
+    padding-left: 0px;
+  }
+
+  li:last-child button {
+    padding-right: 0px;
+  }
+
+  .nav-link {
+    color: $white;
+    text-transform: uppercase;
+  }
+
+  .nav-link.active, .nav-link:hover, .nav-link:focus {
+    border-color: $middle-grey;
+    background: none;
+    color: $white;
+  }
+
+  .nav-item:focus-visible {
+    outline: none;
+  }
+}

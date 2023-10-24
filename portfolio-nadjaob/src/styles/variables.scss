@@ -1,5 +1,6 @@
 $dark-grey: #2B2B2F;
 $middle-grey: #38383B;
+$light-grey: #B4B4B4;
 $pink: #FF1C54;
 $white: #fff;
 
@@ -16,6 +17,10 @@ $white: #fff;
   gap: 30px;
 }
 
+strong {
+  font-weight: 600;
+}
+
 
 // BUTTONS
 
@@ -27,19 +32,23 @@ $white: #fff;
   .button-transparent {
     background: none;
     border: 2px solid $white;
-    padding: 9px 47px;
+    padding: 9px;
     color: $white;
     font-weight: 700;
+    width: 160px;
+    text-align: center;
   }
   
   .button-color {
     background: $pink;
     border: 2px solid $pink;
-    padding: 9px 47px;
+    padding: 9px;
     color: $white;
     box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
     font-weight: 700;
+    width: 160px;
+    text-align: center;
   }
-  
+
 }
 
