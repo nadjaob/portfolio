@@ -1,22 +1,33 @@
 .container-skills {
-  margin-top: 130px;
 
   .flex-container {
     display: flex;
-    gap: 5px;
-    margin-bottom: 5px;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin: 20px 0 50px;
   }
 
-  .container-skill {
+  .container-icons {
     background: $dark-grey;
-    padding: 50px 30px 30px;
-    text-align: center;
-    width: 25%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4px;
+    border: 1px solid #434343;
+
+    i {
+      font-size: 22px;
+    }
+
+    p {
+      margin-bottom: 0px;
+      font-size: 13px;
+      padding-top: 2px;
+    }
+
   }
 
-  h4 {
-    margin-top: 10px;
-    font-size: 19px;
-    line-height: 19px;
-  }
 }

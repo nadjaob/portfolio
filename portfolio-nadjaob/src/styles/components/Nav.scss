@@ -12,3 +12,8 @@ nav {
 .nav-links {
   @extend %flex-end;
 }
+
+.name-nav {
+  font-size: 20px;
+  font-weight: 600;
+}

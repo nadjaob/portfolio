@@ -12,12 +12,11 @@ export default function Nav() {
       <Container>
         <Row className='navigation'>
           <Col>
-            <p className='mb-0'>NADJA</p>
+            <Link to='/' className='name-nav'>NADJA OBLAENDER</Link>
           </Col>
           <Col className='nav-links'>
-            <Link href='#about'>About me</Link>
+            <Link href='#about'>About</Link>
             <Link to='#projects'>Projects</Link>
-            <Link to='#skills'>Skills</Link>
             <Link to='#contact'>Contact</Link>
           </Col>
         </Row>
