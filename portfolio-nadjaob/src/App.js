@@ -13,8 +13,9 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <About />
       <Skills />
+      <About />
+      
       <Projects />
       <Contact />
     </BrowserRouter>

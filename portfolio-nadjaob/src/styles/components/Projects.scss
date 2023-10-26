@@ -5,16 +5,17 @@
     width: 100%;
   }
 
-  .container-image {
-    margin-right: 40px;
-  }
-
   .container-project-image {
     position: relative;
   }
 
   .project-skills {
     color: $light-grey;
+    font-size: 12px;
+  }
+
+  .container-project-details {
+    margin-bottom: 30px;
   }
 
 }
