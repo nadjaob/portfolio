@@ -16,7 +16,7 @@ import Nav from './Nav'
 
 export default function Header() {
   return (
-    <header>
+    <header id='header'>
       <Nav />
       <Container className='header-container'>
         <Row>

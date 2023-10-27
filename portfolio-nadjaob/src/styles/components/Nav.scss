@@ -14,6 +14,16 @@ nav {
   @extend %flex-end;
 }
 
+.nav-links a {
+  padding: 5px 0;
+
+  &:hover, &.active {
+    border-bottom: 2px solid $pink;
+    padding-bottom: 4px;
+  }
+
+}
+
 .name-nav {
   font-size: 20px;
   font-weight: 600;
