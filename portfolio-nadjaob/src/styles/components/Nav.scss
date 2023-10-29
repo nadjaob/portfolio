@@ -16,10 +16,10 @@ nav {
 
 .nav-links a {
   padding: 5px 0;
+  border-bottom: 2px solid $dark-grey;
 
-  &:hover, &.active {
-    border-bottom: 2px solid $pink;
-    padding-bottom: 4px;
+  &:hover {
+    border-color: $pink;
   }
 
 }
