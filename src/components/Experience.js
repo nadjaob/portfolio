@@ -12,7 +12,7 @@ import Col from 'react-bootstrap/Col'
 
 export default function Experience() {
   return (
-    <Container className='container-experience' id='experience'>
+    <Container className='container-experience' id='Experience'>
       <Row>
       <h3 id='#experience'>Experience</h3>
         <Col>

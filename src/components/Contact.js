@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom'
 
 export default function Contact() {
   return (
-    <Container fluid id='contact'>
+    <Container fluid id='Contact'>
       <Container>
         <Row>
           <Col className='footer-container'>

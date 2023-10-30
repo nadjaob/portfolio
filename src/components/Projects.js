@@ -17,10 +17,10 @@ import weatherapp from '../images/macbook-weather-app.png'
 
 export default function Projects() {
   return (
-    <Container id='projects'>
+    <Container id='Projects'>
       <Row>
         <Col>
-          <h4>Bucket List</h4>
+          <h4>Bucket List<br /><span>- Project 1 -</span></h4>
           <Row className='container-projects'>
             <Col className='container-image' md='7'>
               <div className='container-project-image'>
@@ -37,7 +37,7 @@ export default function Projects() {
               </div>
             </Col>
           </Row>
-          <h4>Gourmet Gossip</h4>
+          <h4>Gourmet Gossip<br /><span>- Project 2 -</span></h4>
           <Row className='container-projects'>
             <Col className='container-project-details' md='5'>
               <p>A recipe sharing application based on a <strong>React front-end</strong>, <strong>Node back-end</strong>, a fully functional <strong>Express API (CRUD)</strong> and custom authentication for login and register.</p>
@@ -54,7 +54,7 @@ export default function Projects() {
               </div>
             </Col>
           </Row>
-          <h4>Can I wear short pants?</h4>
+          <h4>Can I wear short pants?<br /><span>- Project 3 -</span></h4>
           <Row className='container-projects'>
             <Col className='container-image' md='7'>
               <div className='container-project-image'>
@@ -62,7 +62,8 @@ export default function Projects() {
               </div>
             </Col>
             <Col className='container-project-details' md='5'>
-              <p>A <strong>React-based front-end application</strong> that uses the Visual Crossing weather API to retrieve data about the temperature, weather, humidity and a time and place specified by the user. Based on this information the application displays a response to the question "Can I wear short pants?".</p>
+              <p>A <strong>React-based front-end application</strong> that uses the Visual Crossing weather API to retrieve data about the temperature, weather, humidity and a time and place specified by the user.</p>
+              <p>Based on this information the application displays a response to the question "Can I wear short pants?".</p>
               <p className='project-skills'>React - JavaScript - Sass - Node.js - Express - Git - GitHub - Visual crossing weather API - Netlify</p>
               <div className='two-buttons'>
                 <Link className='button-transparent' to='https://github.com/nadjaob/weather-app' target='_blank'>Read me</Link>
@@ -70,7 +71,7 @@ export default function Projects() {
               </div>
             </Col>
           </Row>
-          <h4>Pacman</h4>
+          <h4>Pacman<br /><span>- Project 4 -</span></h4>
           <Row className='container-projects'>
             <Col className='container-project-details' md='5'>
               <p>A unique version of pacman based on a 21x21 grid.</p>

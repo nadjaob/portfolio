@@ -28,3 +28,59 @@ nav {
   font-size: 20px;
   font-weight: 600;
 }
+
+
+.nav-mobile {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 14px;
+  span {
+    display: block;
+    border-radius: 10px;
+    width: 30px;
+    height: 3px;
+    background: $white;
+    &:not(:nth-last-of-type(1)){
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.modal-content {
+  background-color: $dark-grey;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-body {
+  position: absolute;
+}
+
+.modal-body a {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin-bottom: 11px;
+}
+
+.btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+@media (min-width: 769px) {
+  .nav-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
