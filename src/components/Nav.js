@@ -36,7 +36,8 @@ export default function Nav() {
           <Modal show={showMobileNav} fullscreen={true} onHide={() => setShowMobileNav(false)}>
               <Modal.Header closeButton>
               </Modal.Header>
-              <Modal.Body closeButton>
+              <Modal.Body>
+                <Link onClick={() => setShowMobileNav(false)} to='header'>Start</Link>
                 {navLinks.map(navLink => {
                 return <Link onClick={() => setShowMobileNav(false)} to={navLink}>{navLink}</Link>
                 })}

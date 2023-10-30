@@ -1,12 +1,17 @@
 .container-experience {
   padding-top: 180px;
-
-  .col {
-    padding: 50px;
-  }
-
-  .experience-details {
-    color: $light-grey;
-  }
 }
 
+.experience-col {
+  padding: 50px;
+}
+
+.experience-details {
+  color: $light-grey;
+}
+
+@media (max-width: 992px) {
+  .experience-col {
+    padding: 30px;
+  }
+}
