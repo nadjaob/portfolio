@@ -1,6 +1,18 @@
 .container-about {
-  text-align: center;
-  padding-top: 110px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+
+  .col {
+    padding: 30px;
+  }
+}
+
+.container-about-row {
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .skills-on-side {

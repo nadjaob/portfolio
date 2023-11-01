@@ -1,3 +1,11 @@
+.container-each-project {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  justify-content: center;
+  padding-top: 80px;
+}
+
 .container-projects {
   @extend %flex-between;
 
