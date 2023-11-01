@@ -15,13 +15,13 @@ export default function About() {
     <Container className='container-about' id='About'>
       <Row className='container-about-row'>
         <h3>About</h3>
-        <Col>
-          <p>I am Nadja, a full stack developer from Germany and currently based in Sydney.</p>
-          <p>My passion for web development was sparked when I was working as a <strong>web designer</strong> for a digital agency. There I got taught about the importance of <strong>usability</strong> and how to deliver an exceptional <strong>user experience</strong>.</p>
-          <p>Due to my growing passion for technology it has been a natural next step to learn how to build and maintain a website from the ground up.</p>
-          </Col>
-        <Col>
-          <p>I transitioned to a career in software engineering and since then I'm enjoying all the challenges that programming brings.</p>
+        <Col md='6' className='about-col-left'>
+          <p>I am Nadja, a full stack developer from Germany currently based in Sydney.</p>
+          <p>My passion for web development was sparked when I was working as a <strong>web designer</strong> for a digital agency, where I learned the importance of <strong>usability</strong> and delivering an exceptional <strong>user experience</strong>.</p>
+          <p>Due to my growing interest in technology it has been a natural next step to master the art of building and maintaining websites from scratch.</p>
+        </Col>
+        <Col md='6' className='about-col-right'>
+          <p>Since graduating from a 12-week immersive software engineering course, I have been enjoying all the challenges that programming brings.</p>
           <p>It allows me to constantly <strong>learn new skills</strong>, combine my <strong>creativity with analytical problem-solving</strong> and to bring a <strong>broad perspective</strong> to every project.</p>
           <p>Now I am excited to further develop my knowledge and move into a <strong>Junior developer</strong> role where I can utilize my abilities to their fullest potential.</p>
         </Col>

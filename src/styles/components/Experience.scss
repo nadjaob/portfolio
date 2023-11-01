@@ -8,9 +8,16 @@
 }
 
 .experience-col {
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .experience-details {
   color: $light-grey;
+}
+
+@media(min-width: 769px) {
+  .experience-col {
+    padding: 30px;
+  }
 }

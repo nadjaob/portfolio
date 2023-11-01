@@ -1,13 +1,14 @@
 .container-about {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-top: 80px;
 
-  .col {
-    padding: 30px;
-  }
+}
+
+.about-col-left, .about-col-right {
+  padding: 30px;
 }
 
 .container-about-row {
@@ -18,4 +19,10 @@
 .skills-on-side {
   padding: 70px;
   background: $pink;
+}
+
+@media(max-width: 768px) {
+  .about-col-left, .about-col-right {
+    padding: 0px;
+  }
 }
