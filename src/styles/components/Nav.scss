@@ -27,6 +27,7 @@ nav {
 .name-nav {
   font-size: 20px;
   font-weight: 600;
+  word-break: break-all;
 }
 
 
@@ -79,5 +80,9 @@ nav {
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+  }
+
+  .name-nav {
+    font-size: 18px;
   }
 }
