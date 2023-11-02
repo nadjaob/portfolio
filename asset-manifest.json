@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.feec622a.css",
-    "main.js": "/portfolio/static/js/main.839533f9.js",
+    "main.css": "/portfolio/static/css/main.e14d1a61.css",
+    "main.js": "/portfolio/static/js/main.820d8b37.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/macbook-bucket-list.png": "/portfolio/static/media/macbook-bucket-list.c9f231480400d6377b9c.png",
     "static/media/macbook-gourmet-gossip.png": "/portfolio/static/media/macbook-gourmet-gossip.819b777aacfbc8824220.png",
     "static/media/macbook-weather-app.png": "/portfolio/static/media/macbook-weather-app.30840ef2c0fe7fb63e17.png",
     "static/media/macbook-pacman.png": "/portfolio/static/media/macbook-pacman.49d6624174c2599eab06.png",
     "index.html": "/portfolio/index.html",
-    "main.feec622a.css.map": "/portfolio/static/css/main.feec622a.css.map",
-    "main.839533f9.js.map": "/portfolio/static/js/main.839533f9.js.map",
+    "main.e14d1a61.css.map": "/portfolio/static/css/main.e14d1a61.css.map",
+    "main.820d8b37.js.map": "/portfolio/static/js/main.820d8b37.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.feec622a.css",
-    "static/js/main.839533f9.js"
+    "static/css/main.e14d1a61.css",
+    "static/js/main.820d8b37.js"
   ]
 }
