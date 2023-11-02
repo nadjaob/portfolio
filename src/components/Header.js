@@ -12,6 +12,7 @@ import Col from 'react-bootstrap/Col'
 
 // COMPONENTS
 import Nav from './Nav'
+import Typewriter from './Typewriter'
 
 
 export default function Header() {
@@ -21,7 +22,7 @@ export default function Header() {
       <Container className='header-container'>
         <Row>
           <Col>
-            <h1>Hi I'm Nadja!</h1>
+            <h1><Typewriter text="Hi I'm Nadja!" delay={150}/></h1>
             <h2>A Full Stack Developer with a background in Design</h2>
             <div className='two-buttons'>
               <Link className='button-transparent' to='https://github.com/nadjaob' target='_blank'>GitHub</Link>
