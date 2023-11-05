@@ -19,7 +19,7 @@ export default function Projects() {
   return (
     <Container id='Projects'>
       <div className='container-each-project'>
-        <h4>Bucket List<br /><span>- Project 1 -</span></h4>
+        <h4>Bucket List</h4>
         <Row className='container-projects'>
           <Col className='container-image' lg='7'>
             <div className='container-project-image'>
@@ -38,7 +38,7 @@ export default function Projects() {
         </Row>
       </div>
       <div className='container-each-project'>
-        <h4>Gourmet Gossip<br /><span>- Project 2 -</span></h4>
+        <h4>Gourmet Gossip</h4>
         <Row className='container-projects'>
           <Col className='container-image' lg='7'>
             <div className='container-project-image'>
@@ -57,7 +57,7 @@ export default function Projects() {
         </Row>
       </div>
       <div className='container-each-project'>
-        <h4>Can I wear short pants?<br /><span>- Project 3 -</span></h4>
+        <h4>Can I wear short pants?</h4>
         <Row className='container-projects'>
           <Col className='container-image' lg='7'>
             <div className='container-project-image'>
@@ -76,7 +76,7 @@ export default function Projects() {
         </Row>
       </div>
       <div className='container-each-project'>
-        <h4>Pacman<br /><span>- Project 4 -</span></h4>
+        <h4>Pacman</h4>
         <Row className='container-projects'>
           <Col className='container-image' lg='7'>
             <div className='container-project-image'>

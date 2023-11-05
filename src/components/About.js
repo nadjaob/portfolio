@@ -18,7 +18,7 @@ export default function About() {
         <Col md='6' className='about-col-left'>
           <p>I am Nadja, a full stack developer from Germany currently based in Sydney.</p>
           <p>My passion for web development was sparked when I was working as a <strong>web designer</strong> for a digital agency, where I learned the importance of <strong>usability</strong> and delivering an exceptional <strong>user experience</strong>.</p>
-          <p>Due to my growing interest in technology it has been a natural next step to master the art of building and maintaining websites from scratch.</p>
+          <p>Due to my growing interest in technology it has been a natural next step to master the art of building and maintaining web applications from scratch.</p>
         </Col>
         <Col md='6' className='about-col-right'>
           <p>Since graduating from a 12-week immersive software engineering course, I have been enjoying all the challenges that programming brings.</p>

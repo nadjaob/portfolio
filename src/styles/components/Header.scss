@@ -7,6 +7,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
   }
   
   h1 {
@@ -19,6 +24,10 @@ header {
     font-size: 20px;
   }
   
+}
+
+.image-of-me {
+  width: 320px;
 }
 
 @media (max-width: 768px) {
