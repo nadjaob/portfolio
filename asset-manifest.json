@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0d8c54e.css",
-    "main.js": "/portfolio/static/js/main.cefe0889.js",
+    "main.js": "/portfolio/static/js/main.ddb378e7.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/macbook-bucket-list.png": "/portfolio/static/media/macbook-bucket-list.c9f231480400d6377b9c.png",
     "static/media/macbook-gourmet-gossip.png": "/portfolio/static/media/macbook-gourmet-gossip.819b777aacfbc8824220.png",
@@ -10,11 +10,11 @@
     "static/media/macbook-pacman.png": "/portfolio/static/media/macbook-pacman.49d6624174c2599eab06.png",
     "index.html": "/portfolio/index.html",
     "main.f0d8c54e.css.map": "/portfolio/static/css/main.f0d8c54e.css.map",
-    "main.cefe0889.js.map": "/portfolio/static/js/main.cefe0889.js.map",
+    "main.ddb378e7.js.map": "/portfolio/static/js/main.ddb378e7.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0d8c54e.css",
-    "static/js/main.cefe0889.js"
+    "static/js/main.ddb378e7.js"
   ]
 }
