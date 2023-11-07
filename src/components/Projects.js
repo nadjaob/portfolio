@@ -28,7 +28,7 @@ export default function Projects() {
           </Col>
           <Col className='container-project-details' lg='5'>
             <p>A social media platform where users can add travel destinations to their personal bucket lists, view profile pages and invite friends to add destinations to their list.</p>
-            <p>The <strong>full stack application</strong> is based on a React front-end and Django backend. The data is served from a Postgres database containing multiple relationships and CRUD functionality.</p>
+            <p>The <strong>full stack application</strong> is based on a React frontend and Django backend. The data is served from a Postgres database containing multiple relationships and CRUD functionality.</p>
             <p className='project-skills'>React - JavaScript - Bootstrap - Sass - Django - Python - PostgreSQL - Git - Github - Figma - Trello</p>
             <div className='two-buttons'>
               <Link className='button-transparent' to='https://github.com/nadjaob/bucket-list' target='_blank'>Read me</Link>
@@ -46,8 +46,8 @@ export default function Projects() {
             </div>
           </Col>
           <Col className='container-project-details' lg='5'>
-            <p>A recipe sharing application based on a <strong>React front-end</strong>, <strong>Node back-end</strong>, a fully functional <strong>Express API (CRUD)</strong> and custom authentication for login and register.</p>
-            <p>Focusing on the front-end I implemented a dynamic changeable form to create and update recipes, the search and filter function and the comment function.</p>
+            <p>A recipe sharing application based on a <strong>React frontend</strong>, <strong>Node backend</strong>, a fully functional <strong>Express API (CRUD)</strong> and custom authentication for login and register.</p>
+            <p>Focusing on the frontend I implemented a dynamic changeable form to create and update recipes, the search and filter function and the comment function.</p>
             <p className='project-skills'>React - JavaScript - Bootstrap - Sass - Node.js - Express - MongoDB - Mongoose - Git - Github - Figma - Trello</p>
             <div className='two-buttons'>
               <Link className='button-transparent' to='https://github.com/nadjaob/gourmet-gossip' target='_blank'>Read me</Link>
@@ -65,7 +65,7 @@ export default function Projects() {
             </div>
           </Col>
           <Col className='container-project-details' lg='5'>
-            <p>A <strong>React-based front-end application</strong> that uses the Visual Crossing weather API to retrieve data about the temperature, weather, humidity and a time and place specified by the user.</p>
+            <p>A <strong>React-based frontend application</strong> that uses the Visual Crossing weather API to retrieve data about the temperature, weather, humidity and a time and place specified by the user.</p>
             <p>Based on this information the application displays a response to the question "Can I wear short pants?".</p>
             <p className='project-skills'>React - JavaScript - Sass - Node.js - Express - Git - GitHub - Visual crossing weather API - Netlify</p>
             <div className='two-buttons'>
