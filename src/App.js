@@ -15,9 +15,9 @@ function App() {
     <BrowserRouter>
       <Header />
       <About />
-      <Skills />
       <Projects />
       <Experience />
+      <Skills />
       <Contact />
     </BrowserRouter>
   )

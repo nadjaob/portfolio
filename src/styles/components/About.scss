@@ -1,5 +1,5 @@
 .container-about {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,8 +21,17 @@
   background: $pink;
 }
 
+
 @media(max-width: 768px) {
   .about-col-left, .about-col-right {
     padding: 0px;
   }
+}
+
+
+// INTERESTS
+
+.container-interests p {
+  background-color: $dark-grey;
+  padding: 40px 50px;
 }

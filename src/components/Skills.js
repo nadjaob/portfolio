@@ -8,8 +8,8 @@ export default function Skills() {
   return (
     <Container className='container-skills' fluid id='Skills'>
      <Container>
-     <h3>Business Skills</h3>
-      <Row className='mt-4'>
+     <h3>Software Skills</h3>
+      <Row className='mt-5'>
           <Col className='container-icons' md='1'>
             <i class="devicon-react-original"></i>
             <p>React</p>
@@ -59,7 +59,7 @@ export default function Skills() {
               <p>MongoDB</p>
           </Col>
       </Row>
-      <Row>
+      <Row className='mb-5'>
           <Col className='container-icons' md='1'>
           <i class="devicon-postgresql-plain"></i>
               <p>PostgreSQL</p>
@@ -109,14 +109,12 @@ export default function Skills() {
             <p>Trello</p>
           </Col>
       </Row>
+      <h5 className='mt-5'>Business skills</h5>
       <Row className='container-soft-skills'>
-        <Col md='6' className='soft-skills-left'>
-          <h4>Soft skills</h4></Col>
-        <Col md='6' className='soft-skills-right'>
-          <p><strong>Adaptability:</strong> open to change and quick learning</p>
-          <p><strong>Creativity:</strong> finding innovative solutions and improving UI</p>
-          <p><strong>Problem-solving:</strong> working with new technologies and debugging code</p>
-          <p><strong>Time management:</strong> meeting deadlines and prioritizing tasks</p></Col>
+        <Col><p><strong>Adaptability:</strong><br />open to change,<br />quick learning</p></Col>
+        <Col><p><strong>Creativity:</strong><br />finding innovative solutions,<br />improving UI</p></Col>
+        <Col><p><strong>Problem-solving:</strong><br />working w/ new technologies,<br />debugging code</p></Col>
+        <Col><p><strong>Time management:</strong><br />meeting deadlines,<br />prioritizing tasks</p></Col>
       </Row>
      </Container>
      {/* <Container>
