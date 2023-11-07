@@ -31,8 +31,8 @@ export default function About() {
       <Row>
         <h4>Interests</h4>
         <Col><p><strong>Backpacking</strong><br />While travelling, I have spent more nights in a bunk bed than in a private room. I love languages, meeting people from all over the world and broadening my horizons - all of this while discovering beautiful places!</p></Col>
-        <Col><p><strong>Ukulele</strong><br />I am a passionate, self-taught ukulele player and keep improving my skills through online tutorials. It brings me joy to sing along, even though I am aware that my vocal abilities may not be as polished as some..</p></Col>
-        <Col><p><strong>Snowboarding</strong><br />I have been enjoying winter sports since I was a kid, and this is probably what I miss most about Europe. Incredible mountain views, physical challenges and the thrill of riding downhill are just amazing!</p></Col>
+        <Col><p><strong>Ukulele</strong><br />I am a passionate, self-taught ukulele player and keep improving my skills through online tutorials. It brings me joy to sing along, even though I am aware that my vocal abilities may not be as polished as some.</p></Col>
+        <Col><p><strong>Snowboarding</strong><br />I have been enjoying winter sports since I was a kid, and this is probably what I miss most about home. Incredible mountain views, physical challenges and the thrill of riding downhill are just amazing!</p></Col>
       </Row>
     </Container>
     
