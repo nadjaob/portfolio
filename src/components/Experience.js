@@ -14,7 +14,7 @@ export default function Experience() {
   return (
     <Container className='container-experience' id='Experience'>
       <Row>
-      <h3 id='#experience'>Experience</h3>
+      <h3>Experience</h3>
         <Col xs='12' md='6' className='experience-col'>
           {/* <img src={logoGA} alt='Logo Generaly Assembly' /> */}
           <p><strong>Software Engineering Immersive - General Assembly</strong><br /><span className='experience-details'>London, UK (Remote) | 07/2023 - 10/2023</span></p>

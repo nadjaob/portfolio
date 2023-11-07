@@ -6,9 +6,10 @@ import Col from 'react-bootstrap/Col'
 
 export default function Skills() {
   return (
-    <Container className='container-skills' fluid>
+    <Container className='container-skills' fluid id='Skills'>
      <Container>
-      <Row>
+     <h3>Business Skills</h3>
+      <Row className='mt-4'>
           <Col className='container-icons' md='1'>
             <i class="devicon-react-original"></i>
             <p>React</p>
@@ -108,7 +109,30 @@ export default function Skills() {
             <p>Trello</p>
           </Col>
       </Row>
+      <Row className='container-soft-skills'>
+        <Col md='6' className='soft-skills-left'>
+          <h4>Soft skills</h4></Col>
+        <Col md='6' className='soft-skills-right'>
+          <p><strong>Adaptability:</strong> open to change and quick learning</p>
+          <p><strong>Creativity:</strong> finding innovative solutions and improving UI</p>
+          <p><strong>Problem-solving:</strong> working with new technologies and debugging code</p>
+          <p><strong>Time management:</strong> meeting deadlines and prioritizing tasks</p></Col>
+      </Row>
      </Container>
+     {/* <Container>
+      <Row>
+        <Col md='5' className='skills-on-side'>
+          <p><strong>Front-End:</strong> React, JavaScript, HTML, CSS, Sass, Bootstrap</p>
+          <p><strong>Backend:</strong> Node.js, Express, Python, Django</p>
+          <p><strong>Databases:</strong> PostgreSQL, MongoDB, Mongoose</p>
+          <p><strong>Version control and collaboration:</strong> GitHub, Git</p>
+          <p><strong>Design and UI:</strong> Adobe Suite, Figma</p>
+          <p><strong>Content Management Systems:</strong> Wordpress, Shopware</p>
+          <p><strong>Project and time management:</strong> Trello, Slack</p>
+          <p><strong>Currently learning:</strong> TypeScript</p>
+        </Col>
+      </Row>
+     </Container> */}
     </Container>
   )
 }

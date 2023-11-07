@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 // IMAGES
 // import me from '../images/nad-square.jpg'
 
-import Skills from './Skills'
+// import Skills from './Skills'
 
 
 export default function About() {
@@ -26,7 +26,6 @@ export default function About() {
           <p>Now I am excited to further develop my knowledge and move into a <strong>Junior developer</strong> role where I can utilize my abilities to their fullest potential.</p>
         </Col>
       </Row>
-      <Skills />
     </Container>
     
     {/* <Container>

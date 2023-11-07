@@ -7,6 +7,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
+import Skills from './components/Skills'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <About />
+      <Skills />
       <Projects />
       <Experience />
       <Contact />

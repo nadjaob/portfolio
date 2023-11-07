@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import me from '../images/nadja-oblaender-circle.png'
+import me from '../images/nadja-oblaender-square.png'
 
 // ICONS
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -30,8 +30,9 @@ export default function Header() {
               <Link className='button-color' to='https://www.linkedin.com/in/nadja-oblaender/' target='_blank'>LinkedIn</Link>
             </div>
           </Col>
-          <Col md='5'>
+          <Col md='5' className='image-container'>
             <img src={me} alt='This is me!' className='image-of-me'/>
+            <div className='border-image'></div>
           </Col>
         </Row>
       </Container>

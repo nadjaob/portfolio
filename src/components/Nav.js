@@ -12,7 +12,7 @@ export default function Nav() {
 
   const [showMobileNav, setShowMobileNav] = useState(false)
 
-  const navLinks = ['About', 'Projects', 'Experience', 'Contact']
+  const navLinks = ['About', 'Skills', 'Projects', 'Experience', 'Contact']
 
   return (
     <nav>

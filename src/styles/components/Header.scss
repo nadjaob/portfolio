@@ -26,20 +26,54 @@ header {
   
 }
 
-.image-of-me {
-  width: 320px;
+.image-container {
+
+  position: relative;
+
+  .image-of-me {
+    width: 320px;
+    height: 320px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .border-image {
+    height: 320px;
+    width: 320px;
+    border: 5px solid #f8f9fa;
+    position: absolute;
+    left: 30px;
+    top: 18px;
+  }
 }
 
 @media (max-width: 768px) {
+
+  header .header-container {
+    padding-top: 110px;
+    padding-bottom: 70px;
+  }
+
+  .image-container {
+    margin-top: 50px;
+  }
+
   header {
-    height: 70vh;
+    min-height: 95vh;
   
     h1 {
       font-size: 34px;
+      height: 41px;
     }
 
     h2 {
       font-size: 17px;
     }
+  }
+}
+
+@media (min-width: 769px) {
+  header h1 {
+    height: 72px;
   }
 }
