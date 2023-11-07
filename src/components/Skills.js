@@ -111,10 +111,10 @@ export default function Skills() {
       </Row>
       <h5 className='mt-5'>Business skills</h5>
       <Row className='container-soft-skills'>
-        <Col><p><strong>Adaptability:</strong><br />open to change,<br />quick learning</p></Col>
-        <Col><p><strong>Creativity:</strong><br />finding innovative solutions,<br />improving UI</p></Col>
-        <Col><p><strong>Problem-solving:</strong><br />working w/ new technologies,<br />debugging code</p></Col>
-        <Col><p><strong>Time management:</strong><br />meeting deadlines,<br />prioritizing tasks</p></Col>
+        <Col md='3'><p><strong>Adaptability</strong><br />open to change,<br />quick learning</p></Col>
+        <Col md='3'><p><strong>Creativity</strong><br />finding innovative solutions,<br />improving UI</p></Col>
+        <Col md='3'><p><strong>Problem-solving</strong><br />working w/ new technologies,<br />debugging code</p></Col>
+        <Col md='3'><p><strong>Time management</strong><br />meeting deadlines,<br />prioritizing tasks</p></Col>
       </Row>
      </Container>
      {/* <Container>

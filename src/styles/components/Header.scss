@@ -70,6 +70,11 @@ header {
       font-size: 17px;
     }
   }
+
+  .image-container .image-of-me, .image-container .border-image {
+    width: 270px;
+    height: 270px;
+  }
 }
 
 @media (min-width: 769px) {

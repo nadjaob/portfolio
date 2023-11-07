@@ -23,7 +23,7 @@ export default function Header() {
       <Container className='header-container'>
         <Row>
           <Col md='7'>
-            <h1><Typewriter text="Hi I'm Nadja!" delay={150}/></h1>
+            <h1><Typewriter text="Hi I'm Nadja!" delay={150} /></h1>
             <h2>A Full Stack Developer with a background in Design</h2>
             <div className='two-buttons'>
               <Link className='button-transparent' to='https://github.com/nadjaob' target='_blank'>GitHub</Link>
