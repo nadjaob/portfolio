@@ -28,7 +28,7 @@ export default function Projects() {
           </Col>
           <Col className='container-project-details' lg='5'>
             <p>A social media platform where users can add travel destinations to their personal bucket lists, view profile pages and invite friends to add destinations to their list.</p>
-            <p>The <strong>full stack application</strong> is based on a React frontend and Django backend. The data is served from a Postgres database containing multiple relationships and CRUD functionality.</p>
+            <p>The <strong>full stack application</strong> is based on a <strong>React frontend</strong> and <strong>Django backend</strong>. The data is served from a <strong>Postgres database</strong> containing multiple relationships and CRUD functionality.</p>
             <p className='project-skills'>React - JavaScript - Bootstrap - Sass - Django - Python - PostgreSQL - Git - Github - Figma - Trello</p>
             <div className='two-buttons'>
               <Link className='button-transparent' to='https://github.com/nadjaob/bucket-list' target='_blank'>Read me</Link>
