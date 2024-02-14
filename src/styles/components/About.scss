@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 80px;
+  margin-top: -150px;
 
 }
 
@@ -30,6 +31,10 @@
 
 
 // INTERESTS
+
+.container-interests {
+  margin-bottom: 70px;
+}
 
 .container-interests p {
   background-color: $dark-grey;

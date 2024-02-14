@@ -1,9 +1,9 @@
 .container-each-project {
   display: flex;
   flex-direction: column;
-  min-height: 85vh;
+  min-height: 75vh;
   justify-content: center;
-  padding-top: 80px;
+  // padding-top: 80px;
 }
 
 .container-projects {
@@ -29,7 +29,8 @@
 }
 
 #Projects {
-  padding-top: 30px;
+  padding-top: 120px;
+  margin-top: -60px;
 }
 
 
@@ -53,14 +54,14 @@
   }
 
   .nav-link {
-    color: $white;
+    color: #c6c6c6;
     text-transform: uppercase;
   }
 
   .nav-link.active, .nav-link:hover, .nav-link:focus {
     border-color: $middle-grey;
     background: none;
-    color: $pink;
+    color: $white;
   }
 
   .nav-item:focus-visible {

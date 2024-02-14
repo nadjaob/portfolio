@@ -1,6 +1,6 @@
 header {
   background: $dark-grey;
-  height: 85vh;
+  height: 80vh;
 
   .header-container {
     height: 100%;
@@ -16,12 +16,13 @@ header {
   
   h1 {
     font-family: 'Volkhov', sans-serif;
-    font-size: 60px;
+    font-size: 58px;
   }
 
   h2 {
     font-weight: 300;
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 1.4;
   }
   
 }

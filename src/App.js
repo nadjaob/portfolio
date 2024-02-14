@@ -14,10 +14,10 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <About />
       <Projects />
       <Experience />
       <Skills />
+      <About />
       <Contact />
     </BrowserRouter>
   )
