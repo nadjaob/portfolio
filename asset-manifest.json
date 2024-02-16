@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f0d8c54e.css",
-    "main.js": "/portfolio/static/js/main.71290671.js",
+    "main.css": "/portfolio/static/css/main.cd0d93c6.css",
+    "main.js": "/portfolio/static/js/main.14a8a838.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/macbook-bucket-list.png": "/portfolio/static/media/macbook-bucket-list.c9f231480400d6377b9c.png",
     "static/media/macbook-gourmet-gossip.png": "/portfolio/static/media/macbook-gourmet-gossip.819b777aacfbc8824220.png",
+    "static/media/macbook-rego.png": "/portfolio/static/media/macbook-rego.2756ff9428e72b8b5ebe.png",
+    "static/media/macbook-ferienhaus.png": "/portfolio/static/media/macbook-ferienhaus.1756f6b6d4d601df9a95.png",
+    "static/media/macbook-mkd.png": "/portfolio/static/media/macbook-mkd.ca157f50ccecb39dd69a.png",
     "static/media/macbook-weather-app.png": "/portfolio/static/media/macbook-weather-app.30840ef2c0fe7fb63e17.png",
     "static/media/nadja-oblaender-square.png": "/portfolio/static/media/nadja-oblaender-square.9280d9ebb57875c472f7.png",
     "static/media/macbook-pacman.png": "/portfolio/static/media/macbook-pacman.49d6624174c2599eab06.png",
     "index.html": "/portfolio/index.html",
-    "main.f0d8c54e.css.map": "/portfolio/static/css/main.f0d8c54e.css.map",
-    "main.71290671.js.map": "/portfolio/static/js/main.71290671.js.map",
+    "main.cd0d93c6.css.map": "/portfolio/static/css/main.cd0d93c6.css.map",
+    "main.14a8a838.js.map": "/portfolio/static/js/main.14a8a838.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0d8c54e.css",
-    "static/js/main.71290671.js"
+    "static/css/main.cd0d93c6.css",
+    "static/js/main.14a8a838.js"
   ]
 }
